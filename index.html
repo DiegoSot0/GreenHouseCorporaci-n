@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Green House Refrigeracion</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<script src="js/wow.min.js"></script>
+</head>
+<body>
+	<!-- Seccion Menu -->
+	<div class=" sticky-top menu-inferior">
+		<nav class="navbar container navbar-expand-lg ">
+			<div>
+				<a href="index.html"><img class="logo" src="images/LOGO-GH.webp" alt=""></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-lista"
+				aria-controls="menu-lista" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars fa-1x	"></span>
+			</button>
+			<div class="collapse navbar-collapse menu-lista" id="menu-lista">
+				<ul class="navbar-nav mr-auto w-100 justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="conocenos.html">Conocenos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#servicios">Servicios <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#clientes">Clientes <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contactos <span class="sr-only">(current)</span></a>
+					</li>
+
+			</div><!-- Fin .collapse -->
+		</nav><!-- Fin .navbar -->
+	</div><!-- Fin .menu-inferior -->
+	<!-- Fin Seccion de Menu -->
+
+
+
+	<!-- Seccion slider -->
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active ">
+				<div class="slider-container container p-relative">
+					<div class="flotante">
+						<span>Climatización</span>
+						<p class="text-justify">El confort en el ambiente del hogar o del trabajo ayuda a que nuestra
+							productividad y
+							desempeño sean más eficientes.
+						</p>
+						<button type="button" class="btn btn-success">Ver Mas</button>
+					</div><!-- Fin .flotante -->
+				</div><!-- Fin .slider-container -->
+				<img class="d-block slider" src="images/slider/slider1.webp" alt="First slide">
+			</div>
+			<!--Fin .carousel-item -->
+			<div class="carousel-item">
+				<div class="slider-container container p-relative">
+					<div class="flotante">
+						<span>Cableado estructurado</span>
+						<p>La conectividad entre la interfaz laboral hace más ágil y fluida la globalización de nuestra
+							información. </p>
+						<button type="button" class="btn btn-success">Ver Mas</button>
+					</div><!-- Fin .flotante -->
+				</div><!-- Fin .slider-container -->
+				<img class="d-block slider" src="images/slider/slider2.webp" alt="Second slide">
+			</div>
+			<!--Fin .carousel-item -->
+			<div class="carousel-item">
+				<div class="slider-container container p-relative">
+					<div class="flotante">
+						<span>Servicios Electricos</span>
+						<p>Un buen sistema eléctrico garantiza el ahorro energético de cada uno de los equipos de
+							trabajo cuidando nuestra economía y el medio ambiente.</p>
+						<button type="button" class="btn btn-success">Ver Mas</button>
+					</div><!-- Fin .flotante -->
+				</div><!-- Fin .slider-container -->
+				<img class="d-block slider" src="images/slider/slider3.webp" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<div class="slider-container container p-relative">
+					<div class="flotante">
+						<span>Servicios Generales</span>
+						<p>Las instalaciones y ventas con garantía hechas por profesionales brindan la seguridad de
+							tener un servicio personalizado ante cada una de sus necesidades.</p>
+						<button type="button" class="btn btn-success">Ver Mas</button>
+					</div><!-- Fin .flotante -->
+				</div><!-- Fin .slider-container -->
+				<img class="d-block slider" src="images/slider/slider4.webp" alt="Third slide">
+			</div>
+			<!--Fin .carousel-item -->
+		</div><!-- .carousel-inner -->
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- Fin Seccion Propuesta Slider -->
+
+	<!-- Sección Conocenos-->
+	<div class="conocenos" id="conocenos">
+		<div class="conocenos-container container ">
+			<div class="row d-flex align-items-center">
+				<div class=" container-izquierda col-md-6  animate__animated animate__backInLeft">
+					<span class="titulo  "><span class="verde">Green House</span> <span
+							class="plomo">Corporación</span></span>
+
+
+					<p class="text-justify">Somos un grupo de jóvenes emprendedores que tuvimos la visión de
+						formar una empresa
+						desde el 2009 y unificando nuestro capital pudimos concretarlo el 2015 con GREEN HOUSE
+						REFRIGERACION, desde entonces nuestro enfoque fue brindar soluciones factibles, viables e
+						integrales sobre el aire acondicionado y refrigeración industrial cuya respuesta obedece a la
+						creciente demanda de servicio de climatización y conservación de productos.
+						El 2017 ampliamos nuestra familia empresarial con GREEN HOUSE
+						CORPORACION, direccionada a
+						brindar servicios en distintos rubros según la demanda de cada cliente dotándonos de
+						profesionales capacitados que garanticen la correcta ejecución del servicio.
+					</p>
+				</div>
+				<!--Fin de .container-izquierda-->
+				<div
+					class="animate__animated animate__backInRight container-derecha d-flex justify-content-center col-md-6">
+					<img src="images/conocenos.webp" alt="">
+				</div>
+				<!--Fin de .container-derecha-->
+			</div>
+			<!--Fin de .row-->
+		</div><!-- Fin de .conocenos-container-->
+	</div><!-- Fin de .conocenos-->
+
+	<!-- Sección de Prueba-->
+	<!-- Fin de Seccion de Prueba-->
+
+	<!-- Sección Servicios-->
+	<div class="servicios" id="servicios">
+		<div class="container servicios-container">
+			<span class="titulo d-flex justify-content-center">Servicios</span>
+			<div class="divider"></div>
+			<div
+				class="contenedor d-flex pt-4 justify-content-between align-items-center justify-content-around position-relative">
+				<div class="card card-mod ">
+					<img class="card-img-top imgbox w-100" src="images/Aire Acondicionado 2 .webp" alt="Card image cap">
+					<div class="card-body contenido">
+						<h5 class="card-title text-center">Climatización</h5>
+						<p class="card-text">Venta, instalación, mantenimiento de equipos de aire acondicionado y
+							calefacción en general.</p>
+						<a href="#" class="btn btn-dark w-100">Ver mas</a>
+					</div>
+				</div>
+				<div class="card card-mod   p-0 m-0">
+					<img class="card-img-top imgbox w-100" src="images/Cableado-estructurado 2 .webp"
+						alt="Card image cap">
+					<div class="card-body contenido">
+						<h5 class="card-title text-center">Cableado estructurado </h5>
+						<p class="card-text ">La conectividad entre la interfaz laboral hace más ágil y fluida la
+							globalización de nuestra información.</p>
+						<a href="#" class="btn btn-dark w-100">Ver mas</a>
+					</div>
+				</div>
+				<div class="card card-mod   p-0 m-0">
+					<img class="card-img-top imgbox w-100" src="images/electricidad 2.webp" alt="Card image cap">
+					<div class="card-body contenido">
+						<h5 class="card-title text-center">Servicios electricos</h5>
+						<p class="card-text">Un buen sistema eléctrico garantiza el ahorro energético de cada uno de los
+							equipos de trabajo cuidando nuestra economía y el medio ambiente.</p>
+						<a href="#" class="btn btn-dark w-100">Ver mas</a>
+					</div>
+				</div>
+				<div class="card card-mod   p-0 m-0">
+					<img class="card-img-top imgbox w-100" src="images/Servicios generales 2.webp" alt="Card image cap">
+					<div class="card-body contenido">
+						<h5 class="card-title text-center">Servicios Generales</h5>
+						<p class="card-text">Las instalaciones y ventas con garantía hechas por profesionales brindan la
+							seguridad de tener un servicio personalizado </p>
+						<a href="#" class="btn btn-dark w-100">Ver mas</a>
+					</div>
+				</div>
+			</div><!-- Fin de .row.-->
+			<!--<img src="images/fondo.svg" alt="blue shape" class=" fondo-nube">
+			<div class="pattern-sm-none position-absolute position__top-left--outer shape shape--circle shape--green shape--behind"
+				style="left: -10%;">
+			</div>  -->
+
+		</div><!-- Fin de .container-->
+	</div>
+	<!-- Fin de .servicios-->
+
+	<!-- Seccion de proyectos-->
+	<div class="proyectos animate__animated animate__backInLeft" id="proyectos">
+		<div class="container proyectos-container ">
+			<span class="titulo d-flex justify-content-center">Proyectos recientes</span>
+			<div class="divider"></div>
+			<div class="row text-center text-lg-left">
+				<a href="#" class=" card col-md-4 p-0 ">
+					<div class="card-img-top">
+
+						<img class=" alto w-100" src="images/proyecto-lince.webp" alt="">
+
+					</div>
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							Municipalidad Lince
+						</h5>
+					</div>
+				</a>
+				<a href="#" class=" card col-md-4 p-0 ">
+
+					<div class="card-img-top  zoom ">
+						<img class=" alto w-100" src="images/proyecto-pj.webp" alt="">
+
+					</div>
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							Poder Judicial Perú
+						</h5>
+					</div>
+
+				</a>
+				<a href="#" class=" card col-md-4 p-0 ">
+					<div class="card-img-top">
+						<img class=" alto w-100" src="images/proyecto-onpe.webp" alt="">
+					</div>
+					<div class="card-body">
+						<h5 class="card-title text-center">
+							Oficina Nacional de Procesos Electorales
+						</h5>
+					</div>
+				</a>
+
+				<!--<img src="images/fondo.svg" alt="blue shape" class="fondo-nube1">
+				<div class="pattern-sm-none position-absolute position__top-left--outer shape shape--circle shape--green shape--behind"
+					style="left: -10%;">
+				</div>  -->
+			</div>
+			<div class="container d-flex justify-content-center">
+				<a href="">
+					<button type="button" class="btn btn-proyectos ">Ver mas proyectos</button>
+				</a>
+			</div>
+			<!-- /.container -->
+		</div>
+
+
+
+	</div>
+
+	<!-- Sección Formulario-->
+	<div class="formulario" id=formulario>
+		<div class="container formulario-container">
+			<div class="row">
+				<div class="col-md-6 animate__animated animate__backInRight">
+					<img class="imagen-form" src="images/formulario.webp" alt="">
+				</div>
+				<form class="col-md-6 ">
+					<span class=" titulo d-flex justify-content-center">Solicite su Cotización</span>
+					<div class="divider"></div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Nombres</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1"
+							placeholder="nombre completo">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Correo Electronico</label>
+						<input type="tel" class="form-control" id="exampleFormControlInput1"
+							placeholder="name@example.com">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Celular</label>
+						<input type="email" class="form-control" id="exampleFormControlInput1"
+							placeholder="name@example.com">
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Mensaje</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<button type="submit" class=" btn btn-dark w-100">Enviar</button>
+				</form>
+			</div>
+		</div>
+		<!-- <img src="images/fondo.svg" alt="blue shape" class="fondo-nube1"> -->
+
+	</div>
+	<!-- Sección Clientes -->
+	<div class="clientes" id="clientes">
+		<div class="clientes-container container">
+			<span class="titulo d-flex justify-content-center">Clientes</span>
+			<div class="divider"></div>
+
+			<div class="owl-carousel">
+				<div class="item"> <img src="images/Senasa.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/caja huancayo.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/ministerio de transporte y comunicaciones.webp" alt="image" />
+				</div>
+				<div class="item"> <img src="images/Municipalida de Lince.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Ministerio de Produccion.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Ministerio de trabajo.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Onpe.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Poder Judicial.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Reniec.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/SBS.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Congreso.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Constructora Aurora.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/Hospital de chosica.webp" alt="image" /> </div>
+				<div class="item"> <img src="images/JNE.webp" alt="image" /> </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Seccion Ubicacion -->
+	<div class="ubicacion" id="ubicacion">
+		<div class="container">
+			<footer class="page-footer font-small blue pt-4">
+				<!-- Footer Links -->
+				<div class="container-fluid text-center text-md-left">
+					<!-- Grid row -->
+					<div class="row justify-content-center">
+						<!-- Grid column -->
+						<div class="col-md-4 s1-footer">
+							<!-- Content -->
+							<img class="text-center" src="images/logo-blanco-gh.webp" alt="">
+
+
+							<li>
+								<span class="fa fa-facebook" aria-hidden="true"></span><a
+									href="https://www.facebook.com/greencorporacion/"
+									title="Facebook Green House Refrigeracion"
+									target="_blank">Facebook/GreenHouseRefrigeración</a>
+							</li>
+							<li>
+								<span class="fa fa-facebook " aria-hidden="true"></span><a
+									href="https://www.facebook.com/ghrefrigeracion/"
+									title="Facebook Green House Corporacion"
+									target="_blank">Facebook/GreenHouseCorporación</a>
+							</li>
+							<li>
+								<span class="fa fa-instagram " aria-hidden="true"></span><a
+									href="https://goo.gl/maps/6wWx4L8dDdjEKnaMA" title="Mapa de Green House"
+									target="_blank">Instagram/GreenHouseRefrigeracion</a>
+							</li>
+							<li>
+								<span class="fa fa-instagram " aria-hidden="true"></span><a
+									href="https://goo.gl/maps/6wWx4L8dDdjEKnaMA" title="Mapa de Green House"
+									target="_blank">Instagram/GreenHouseCorporacion</a>
+							</li>
+						</div>
+						<!-- Grid column -->
+						<hr class="clearfix w-100 d-md-none pb-3">
+						<!-- Grid column -->
+						<div class="col-md-4 s1-footer">
+							<!-- Links -->
+							<h5 class="text-uppercase">informes</h5>
+							<ul class="list-unstyled">
+								<li>
+									<span class="fa fa-phone " aria-hidden="true"></span><a
+										href="Tel:+(511)409-4453">(+511) 409-4453</a>
+								</li>
+								<li>
+									<span class="fa fa-mobile " aria-hidden="true"></span><a
+										href="Tel:+(51)967-768-156">
+										967-768-156</a>
+								</li>
+								<li>
+									<span class="fa fa-envelope " aria-hidden="true"></span><a
+										href="mailto:ventas@ghrefrigeracion.pe">ventas@ghrefrigeracion.pe</a>
+								</li>
+								<li>
+									<span class="fa fa-envelope " aria-hidden="true"></span><a
+										href="mailto:ventas@greencorporacion.com">ventas@greencorporacion.com</a>
+								</li>
+								<li>
+									<span class="fa fa-envelope " aria-hidden="true"></span><a
+										href="mailto:ghrefrigeracionsac@gmail.com">ghrefrigeracionsac@gmail.com</a>
+								</li>
+								<li>
+									<span class="fa fa-map-marker " aria-hidden="true"></span><a
+										href="https://goo.gl/maps/6wWx4L8dDdjEKnaMA" title="Mapa de Friotemp"
+										target="_blank">Jr. Hualcan 1254, Los Olivos - Lima - Perú</a>
+								</li>
+							</ul>
+						</div>
+						<!-- Grid column -->
+						<!-- Grid column -->
+						<div class="col-md-4 s1-footer">
+							<!-- Links -->
+							<h5 class="text-uppercase">Servicios</h5>
+							<ul class="list-unstyled">
+								<li>
+									<a href="#!">Climatizaciòn</a>
+								</li>
+								<li>
+									<a href="#!">Cableado Estructurado</a>
+								</li>
+								<li>
+									<a href="#!">Servicios Electricos</a>
+								</li>
+								<li>
+									<a href="#!">Servicios Generales</a>
+								</li>
+							</ul>
+						</div>
+						<!-- Grid column -->
+					</div>
+					<!-- Grid row -->
+				</div>
+				<!-- Footer Links -->
+				<!-- Copyright -->
+				<div class="footer-copyright text-center py-3">© 2020 Copyright:
+					<a href="https://www.facebook.com/greencorporacion/"> Green House Corporaciòn</a>
+				</div>
+				<!-- Copyright -->
+			</footer>
+		</div>
+	</div>
+	<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+
+
+	<script>
+		new WOW().init();
+	</script>
+</body>
+
+</html>
