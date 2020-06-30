@@ -310,7 +310,10 @@ body {
 .ubicacion li {
   list-style: none;
 }
-
+.prueba{
+  width: 200px;
+  height: 200px;
+}
 .btn-proyectos {
   background: white;
   font-weight: 700;
@@ -323,7 +326,7 @@ body {
 .nuevo img {
   width: 100%;
 }
-
+ 
 .contact-info .media .fa {
   width: 40px;
   height: 40px;
@@ -554,6 +557,24 @@ body {
   width: 100%;
   min-height: 350px;
 }
+/* proyectos*/
+.proyecto-img{
+  
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Fin de proyectos*/
+
 
 /*Responsive Mobile*/
 
