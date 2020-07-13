@@ -287,7 +287,7 @@ body {
 }
 
 #stats {
-  background: url(images/air1.webp) no-repeat;
+  background: url(images/elec1.png) no-repeat;
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -295,11 +295,11 @@ body {
 .wrapper-stats {
   display: flex;
   justify-content: space-around;
-  padding: 125px 0;
+  padding: 7rem 0;
 }
 
-.wrapper-stats h2 {
-  color: #08A452;
+.wrapper-stats h1 {
+  color: white;
 }
 
 .imagen-form {
@@ -319,7 +319,10 @@ body {
   color: #e8e8e8;
   padding: 50px 0 0 0;
 }
-
+.tamano-250{
+  height: 250px;
+  width: 100%;
+}
 .ubicacion li {
   list-style: none;
 }
@@ -336,7 +339,7 @@ body {
   border-radius: 25px;
 }
 .link-proyectos{
-  color:#002958 ;
+  color:#002958;
 }
 .nuevo img {
   width: 100%;
@@ -353,7 +356,9 @@ body {
   background-color: #002958;
   color: #fff;
 }
-
+.border-none{
+  border: none !important;
+}
 .btn-proyectos:hover {
   background: #002958;
   font-weight: 700;
