@@ -1,57 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Green House Refrigeracion</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <script src="js/wow.min.js"></script>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Green House Refrigeracion</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<script src="js/wow.min.js"></script>
 </head>
 
-
 <body>
-    <div class=" sticky-top menu-inferior">
-        <nav class="navbar container navbar-expand-lg ">
-            <div>
-                <a href="index.html"><img class="logo" src="images/logo-gh.webp" alt=""></a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-lista"
-                aria-controls="menu-lista" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-bars fa-1x	"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu-lista">
-                <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="conocenos.html">Conocenos <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clientes <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contactos <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+	<!-- Seccion Menu -->
+	<div class=" sticky-top menu-inferior">
+		<nav class="navbar container navbar-expand-lg ">
+			<div>
+				<a href="index.html"><img class="logo" src="images/logo-gh.webp" alt=""></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-lista"
+				aria-controls="menu-lista" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars fa-1x	"></span>
+			</button>
+			<div class="collapse navbar-collapse menu-lista" id="menu-lista">
+				<ul class="navbar-nav mr-auto w-100 justify-content-end">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="conocenos.html">Conocenos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Servicios
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item" href="climatizacion.html">Climatización</a>
+						  <a class="dropdown-item" href="climatizacion.html">Cableado Estructurado</a>
+						  <a class="dropdown-item" href="climatizacion.html">Servicio Electrico</a>
+						  <a class="dropdown-item" href="climatizacion.html">Servicios Generales</a>
+						  
+						</div>
+					  </li>
+					<li class="nav-item">
+						<a class="nav-link" href="AllProyecto.html">Proyectos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacto.html">Contactos <span class="sr-only">(current)</span></a>
+					</li>
+
+			</div><!-- Fin .collapse -->
+		</nav><!-- Fin .navbar -->
+	</div><!-- Fin .menu-inferior -->
+	<!-- Fin Seccion de Menu -->
+
+
+
     <div class="sliders">
         <section id="stats">
             <div class="overlay ">
